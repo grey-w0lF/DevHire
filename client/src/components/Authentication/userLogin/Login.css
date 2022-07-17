@@ -1,0 +1,60 @@
+.loginScreenMainContainer {
+  min-height: 80vh;
+}
+.FormContainer {
+  margin-top: 5rem;
+  max-width: 50rem;
+}
+.loginFormSpinner1 {
+  width: 10rem;
+}
+
+.rotate {
+  animation: rotate 1.5s linear infinite;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.inputContainer {
+  background-color: #193f52;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  border-radius: 5px;
+}
+.emailInputField {
+  padding: 1.2rem 5rem 1.2rem 5rem;
+}
+.loginInputField {
+  width: 30rem;
+  height: 3.5rem;
+  border-radius: 50px;
+}
+.fa-at,
+.fa-key {
+  font-size: 3rem;
+  padding-right: 1.5rem;
+  color: #f8f9fa;
+}
+.loginButton {
+  background-color: #f8f9fa !important;
+  font-size: 1.8rem !important;
+  font-weight: bold !important;
+  color: #193f52 !important;
+  font-family: "Concert One", cursive !important;
+  letter-spacing: 2px !important;
+  margin-top: 18px !important;
+  width: 10rem !important;
+}
+.loginFormQuery {
+  color: #f8f9fa;
+  font-family: "IBM Plex Sans", sans-serif ;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+}
+.loginFormQueryLink {
+  text-decoration: none;
+  color: #5de9e9;
+}

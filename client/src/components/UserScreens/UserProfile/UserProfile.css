@@ -1,0 +1,117 @@
+.UserProfileMainContainer {
+  min-height: 80vh;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+.profileContainer {
+  /* border: 2px solid black; */
+  max-width: 80rem;
+  margin-top: 0.5rem;
+}
+.editProfileButton {
+  border: 2px solid #193f52;
+  border-radius: 0.5rem;
+}
+.userProfileImage {
+  border-radius: 50%;
+  width: 120px;
+}
+.userName {
+  font-size: 2.2rem;
+  color: #193f52;
+  word-spacing: 0.5rem;
+
+  margin-top: 0.2rem;
+}
+.profession {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(110, 110, 110);
+}
+.userSkillHeader {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(110, 110, 110);
+}
+.user-email {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: rgb(110, 110, 110);
+}
+.userBio {
+  margin-top: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.user-gender-Dob {
+  margin-top: 0.5rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+  word-spacing: 10rem;
+}
+.gender-Dob-Data
+{
+  margin-top: 0.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+  word-spacing: 12rem;
+}
+.socialMediaIcons {
+  margin-right: 2rem;
+  font-size: 3.5rem;
+  color: #193f52;
+}
+.SkillItem {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #193f52;
+}
+.socialMediaIcons:hover {
+  color: #65fefe;
+}
+.fa-envelope:hover {
+  color: #65fefe;
+}
+.website {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(110, 110, 110);
+}
+.company {
+  margin-top: 1.5rem;
+  font-size: 1.8rem;
+  color: rgb(110, 110, 110);
+}
+.company i
+{
+  text-decoration: none;
+  color:#65fefe;
+
+}
+.website i
+{
+  text-decoration: none;
+  color:#65fefe;
+}
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html                                     /* Medium */ {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 48%;
+  }
+}

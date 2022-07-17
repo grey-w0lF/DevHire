@@ -1,0 +1,132 @@
+.Appbar {
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+}
+
+.navLogo {
+  width: 9.5rem;
+  margin: 0.5rem;
+}
+.navLogo {
+  transition: transform 0.5s ease-in-out;
+}
+.navLogo:hover {
+  transform: rotate(360deg);
+}
+.brandName {
+  color: #193f52;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Concert One", cursive !important;
+  text-decoration: none;
+}
+/* .TabContainer
+{
+
+} */
+.navTabs {
+  color: #193f52;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.01rem;
+  margin-right: 2.1rem;
+  font-family: "Concert One", cursive !important;
+}
+.navTabs:hover {
+  color: #f8f9fa;
+  background-color: #193f52;
+}
+.UserProfilePic {
+  width: 9rem;
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+  border: 4px solid #193f52;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.UserProfilePicDrawer {
+  width: 8.5rem;
+  border: 4px solid #193f52;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.SwipeableDrawer {
+  background-color: #193f52;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  min-height: 100vh;
+  padding-top: 4rem !important;
+  min-width: 18rem;
+}
+.UserDrawerContainer {
+  background-color: #193f52;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+  min-width: 18rem;
+}
+.SwipableDrawerItems {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 2.5rem;
+  font-weight: 500;
+  box-shadow: inset 0 0 0 0 #f8f9fa;
+  padding:0.5rem;
+  transition: ease-out 0.3s;
+
+  letter-spacing: 0.01rem;
+  margin-right: 0.8rem;
+  font-family: "Concert One", cursive !important;
+}
+.SwipableDrawerItems:hover {
+  box-shadow: inset 20rem 0 0 0 #f8f9fa;
+  cursor: pointer;
+  color: #193f52;
+}
+.userNameOnNavbar {
+  color: #193f52;
+  text-decoration: none;
+  font-size: 2.3rem;
+  font-weight: 500;
+  padding: 0.9rem;
+  border-radius: 0.5rem;
+  letter-spacing: 0.01rem;
+  margin-right: 2.1rem;
+  font-family: "Concert One", cursive !important;
+}
+.UserNameDrawer {
+  color: #f8f9fa;
+  text-decoration: none;
+  font-size: 2.2rem;
+
+  font-weight: 500;
+  letter-spacing: 0.01rem;
+  font-family: "Concert One", cursive !important;
+}
+.UserDrawerDisplay {
+  display: none;
+}
+/* Media Query*************************************************/
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 59%;
+  }
+  .MediumScreenTabs {
+    display: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html                                     /* Medium */ {
+    font-size: 55%;
+  }
+  .userNameOnNavbar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 48%;
+  }
+}

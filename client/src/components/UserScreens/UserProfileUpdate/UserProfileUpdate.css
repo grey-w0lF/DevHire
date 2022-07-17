@@ -1,0 +1,145 @@
+.updateProfileMainContainer {
+  min-height: 80vh;
+  font-family: "IBM Plex Sans", sans-serif;
+  margin-bottom: 2rem;
+}
+
+.updateProfileUpperContainer {
+  width: 70rem !important;
+  background-color: #193f52;
+  border-radius: 5px 5px 0 0;
+}
+.updateProfileLowerContainer {
+  background-color: #65fefe;
+  width: 70rem !important;
+  border-radius: 0px 0px 5px 5px;
+}
+.subContainerItem {
+  padding: 0.8rem;
+}
+
+.profileImgInput {
+  margin-top: 1rem;
+  color: #f8f9fa;
+  width: 200px;
+
+  margin-bottom: 3rem;
+}
+.updateProfileImg {
+  margin-top: 3rem;
+  width: 11rem;
+}
+.updateProfileHeader {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+  color: #f8f9fa;
+  margin-top: 1rem;
+}
+.saveButton {
+  display: block !important;
+  float: right !important;
+}
+.submitButton {
+  margin: 1rem;
+}
+.fa-cloud-upload
+{
+  font-size:3rem;
+  color:#f8f9fa;
+  cursor: pointer;
+  transition: color 0.5s ease-in;
+  transition: font-size 0.5s;
+  
+
+}
+.fa-cloud-upload:hover
+{
+  color:#65fefe;
+  font-size:3.5rem;
+}
+.genderRadio
+{
+  font-size:500px !important;
+  color:#65fefe !important;
+  margin-bottom:0.4rem !important;
+}
+.genderOpt
+{
+  color:#65fefe;
+  font-size:1.8rem;
+ 
+}
+.Gender
+{
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f8f9fa;
+  margin-bottom: 1rem;
+  margin-right: 0.9rem;
+}
+.dateOfBirth
+{
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #f8f9fa;
+  
+  margin-right: 0.9rem;
+  margin-left: 4rem;
+}
+.datePicker
+{
+  width:22px;
+  border-radius:50%;
+  margin-bottom: 0.4rem;
+  
+}
+.AvailableToWork
+{
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #193f52; 
+}
+.MuiSvgIcon-root
+{
+  font-size:2.2rem !important;
+}
+
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html                                     /* Medium */ {
+    font-size: 55%;
+  }
+  .updateProfileUpperContainer {
+    width: 55rem !important;
+    background-color: #193f52;
+    border-radius: 10px 10px 0 0;
+  }
+  .updateProfileLowerContainer {
+    background-color: #65fefe;
+    width: 55rem !important;
+    border-radius: 0px 0px 5px 5px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 48%;
+  }
+  .updateProfileUpperContainer {
+    width: 45rem !important;
+    background-color: #193f52;
+    border-radius: 10px 10px 0 0;
+  }
+  .updateProfileLowerContainer {
+    background-color: #65fefe;
+    width: 45rem !important;
+    border-radius: 0px 0px 5px 5px;
+  }
+}

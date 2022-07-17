@@ -1,0 +1,148 @@
+.userImg
+{
+    max-width:20rem;
+    max-height:20rem;
+    margin:2rem;
+    border-radius: 50%;
+}
+.mainInfo 
+{
+    max-width:50rem !important;
+}
+.subinfo
+{
+    max-width:50rem !important;
+}
+.subInformation h1 
+{
+    color:#65fefe;
+    font-size:1.5rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:100;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+.emailInfo
+{
+    color:#65fefe;
+    font-size:1.5rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:100;
+    margin-top: 5px;
+    
+}
+
+.imgContainer
+{
+    background-color: #193f52;
+   
+   
+    border-radius:5px;
+}
+.profileKey
+{
+ font-family: "IBM Plex Sans", sans-serif;
+}
+.profileKey h1
+{
+    margin:1.2rem;
+}
+
+.profileKeyValues
+{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+.profileKeyValues h1
+{
+    margin: 1.2rem;
+    color: #193f52;
+}
+.profileKeyValues a
+{
+    text-decoration: none;
+    color:#193f52;
+    font-size:2rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:800;
+    margin:1.2rem;
+}
+.socialBar2
+{
+    display:none !important;
+}
+.socialBar1
+{
+    max-width:50px;
+}
+.socialBar1
+{
+background-color: #65fefe;
+border-radius: 5px;
+}
+.socialBar2
+{
+background-color: #65fefe;
+border-radius: 5px;
+}
+/* #f8f9fa */
+.socialBar1 i
+{
+    font-size: 4rem;
+    margin:0.8rem;
+    color: #193f52;
+    cursor: pointer;
+}
+.socialBar2 i
+{
+    font-size: 4rem;
+    margin:0.8rem;
+    color: #193f52;
+    cursor: pointer;
+}
+.socialList li
+{
+    
+    list-style-type: none;
+}
+.skillList
+{
+    display:flex;
+    list-style-type: none;
+    justify-content:space-evenly;
+    margin-top:10px;
+    color:#193f52;
+    background-color:#65fefe;
+    border-radius: 5px;
+    font-size: 1.6rem;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight:600;
+}
+.skillHeader
+{
+    font-family: "IBM Plex Sans", sans-serif;
+    color:#193f52;
+    font-weight:600;
+    font-size:2rem;
+    text-align:center;
+}
+
+/* Media Query*************************************************/
+@media screen and (max-width: 992px) {
+    html {
+      font-size: 59%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    html                                     /* Medium */ {
+      font-size: 55%;
+    }
+  }
+  
+  @media screen and (max-width: 485px) {
+    .socialList
+    {
+        /* display:flex;
+        justify-content:center; */
+    }
+  }

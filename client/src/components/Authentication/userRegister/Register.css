@@ -1,0 +1,81 @@
+.loginScreenMainContainer {
+  min-height: 80vh;
+}
+.FormContainer {
+  margin-top: 5rem;
+  max-width: 50rem;
+}
+.loginFormLogo {
+  width: 10rem;
+}
+.inputContainer {
+  background-color: #193f52;
+  border-radius: 5px;
+}
+.emailInputField {
+  padding: 1.2rem 5rem 1.2rem 5rem;
+}
+.loginInputField {
+  width: 30rem;
+  height: 3.5rem;
+  border-radius: 50px;
+  text-indent: 10px;
+  outline: none;
+}
+.fa-at,
+.fa-key,
+.fa-user-pen {
+  font-size: 3rem;
+  padding-right: 1.5rem;
+  color: #f8f9fa;
+}
+.loginButton {
+  background-color: #f8f9fa !important;
+  font-size: 1.8rem !important;
+  font-weight: bold !important;
+  color: #193f52 !important;
+  font-family: "Concert One", cursive !important;
+  letter-spacing: 2px !important;
+  margin-top: 18px !important;
+  width: 13rem !important;
+}
+.loginFormQuery {
+  color: #f8f9fa;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  padding-bottom: 1rem;
+}
+.otpQuery
+{
+  color: #f8f9fa;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.8rem;
+  font-weight:700;
+  
+  letter-spacing: 0.1rem;
+  padding-top:1rem;
+  padding-bottom: 1rem;
+  cursor: pointer;
+}
+
+.loginFormQueryLink {
+  text-decoration: none;
+  color: #5de9e9;
+}
+.fa-external-link-square
+{
+  font-size:2.8rem;
+  color:#f8f9fa;
+  cursor: pointer;
+  
+}
+.fa-external-link-square:hover
+{
+  color:#5de9e9;
+}
+.fa-check-square
+{
+  font-size:2.8rem;
+  color:#00c22d;
+}

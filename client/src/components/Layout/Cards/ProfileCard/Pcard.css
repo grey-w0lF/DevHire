@@ -1,0 +1,133 @@
+.cardOuter
+{
+    max-width: 22rem;
+    margin:1.5rem;
+    
+   
+    
+}
+.Pcard
+{
+    background-color: #193f52 !important;
+    background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+.cardAvatarActive
+{
+    margin:5px 0px 5px 5px;
+    max-width:6.2rem;
+    min-width: 6.2rem;
+    max-height: 6.2rem;
+    min-height: 6.2rem;
+    padding-bottom:0.2rem;
+    border-bottom:0.4rem solid #4caf50;
+    border-radius: 50%;
+}
+.cardAvatarDeActive
+{
+    margin:5px 0px 5px 5px;
+    max-width:6.2rem;
+    min-width: 6.2rem;
+    max-height: 6.2rem;
+    min-height: 6.2rem;
+    padding-bottom:0.2rem;
+    border-bottom:0.4rem solid #f44336;
+    border-radius: 50%;
+}
+.cardMedia
+{
+    
+    
+    max-width:24rem;
+    min-width: 24rem;
+    max-height: 20rem;
+    min-height: 20rem;
+    border-bottom: 2px solid #616161;
+    border-top: 2px solid #361111;
+}
+
+.devName
+{
+    font-family: "IBM Plex Sans", sans-serif;
+    color:#f8f9fa;
+    font-size:1.6rem;
+   font-weight:500;
+   margin-left:0.5rem;
+   min-width:13rem;
+   max-width:13rem;
+   margin-top: 1.5rem;
+
+}
+.openToWork0
+{
+    font-family: "IBM Plex Sans", sans-serif;
+
+    font-size:1.4rem;
+    color:#f44336;
+   font-weight:400;
+   margin-left:1rem;
+   
+}
+.openToWork1
+{
+    font-family: "IBM Plex Sans", sans-serif;
+
+    font-size:1.4rem;
+    color:#4caf50;
+   font-weight:400;
+   margin-left:1rem;
+   
+}
+.Profession
+{
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size:1.4rem;
+    max-width:30rem;
+    
+
+    color:#f8f9fa;
+    font-weight:500;
+    margin-left: 0.5rem;
+}
+.fa-ellipsis-v
+{
+    font-size:2.5rem;
+    color:grey;
+    cursor:pointer;
+    margin-left: 0.5rem;
+    margin-top:1.5rem;
+    margin-right:0.5rem;
+}
+.fa-ellipsis-v:hover
+{
+color:#65fefe;
+}
+.fa-address-card,.fa-hire-a-helper,.fa-plus
+{
+    padding:0.5rem;
+    font-size:2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    color:#f8f9fa;
+    cursor: pointer;
+    margin-bottom: 1rem;
+
+}
+.cardenvelopeIcon
+{
+    padding:0.5rem;
+    font-size:2rem;
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    color:#f8f9fa;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.cardenvelopeIcon:hover
+{
+    color:#65fefe; 
+}
+
+.fa-address-card:hover,.fa-hire-a-helper:hover,.fa-comment-alt:hover,.fa-plus:hover
+{
+ color:#65fefe;
+}

@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Concert+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-family: "IBM Plex Sans", sans-serif; */
+  /* font-family: "Concert One", cursive !important; */
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f8f9fa;
+  background-image: url("https://www.transparenttextures.com/patterns/mirrored-squares.png");
+  overflow-x: hidden;
+}
+
+/* Media Query*************************************************/
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html                                     /* Medium */ {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 48%;
+  }
+  .formContainer {
+    max-width: 42rem;
+  }
+  .loginformContainer {
+    max-width: 42rem;
+  }
+}

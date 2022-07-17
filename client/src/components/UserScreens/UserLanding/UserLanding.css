@@ -1,0 +1,149 @@
+.userLandingMainContainer {
+  min-height: 80vh;
+}
+
+
+
+
+.topBorder
+{
+  min-width:100vw;
+  height:1rem;
+  background-color: #193f52;
+}
+.firstBox
+{
+  min-height:60rem;
+  background-image:  radial-gradient(circle, rgba(101,254,254,0.4) 100%, rgba(248,249,250,1) 100%),url("../../../../public/Images/971.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 63rem;
+  background-position: top;
+ 
+
+}
+.landingSearchBar
+{
+  width: 60rem;
+  height: 3.5rem;
+  border-radius: 50px 0 0 50px;
+  
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size:2rem;
+  font-weight:600;
+  text-indent: 7rem;
+  color:#193f52;
+}
+
+.landingLogo
+{
+  animation: rotation 10s infinite linear;
+  width:22rem;
+}
+.userWelcome
+{
+  font-size:4rem;
+  word-spacing: 1.6rem;
+  margin-top:0.8rem;
+  color: #f8f9fa;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight:800;
+  text-align: center;
+}
+.Quote1
+{
+  font-size:2.5rem;
+  word-spacing: 1.6rem;
+  color: #193f52;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight:800;
+}
+.landingImg1
+{
+  width:400px;
+}
+.landingIcons
+{
+  font-size:10rem !important;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  margin-left:2.2rem;
+  color:#193f52;
+}
+.landingBtn
+{
+  background-color:#193f52 !important;
+  color:#f8f9fa !important;
+  font-family:"IBM Plex Sans" !important;
+  font-size:2rem !important;
+  width:150px;
+  font-weight: 700!important;
+  margin-bottom: 1.5rem !important;
+}
+.landingBtn:hover
+{
+  background-color:#f8f9fa !important;
+  color:#193f52 !important;
+  font-weight: 900!important;
+  border:1px solid #193f52 !important;
+}
+
+.fa-search
+{
+  font-size:2.4rem;
+  padding: 0.6rem;
+  background-color: #193f52;
+  color:#f8f9fa;
+  border-radius:0px 50px 50px 0px;
+  cursor:pointer;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  html {
+    font-size: 59%;
+  }
+  .firstBox{
+    background-size:130% 62rem;
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+  html                                     /* Medium */ {
+    font-size: 55%;
+  }
+  .firstBox{
+    background-size:130% 60rem;
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+  html {
+    font-size: 48%;
+  }
+  .firstBox{
+    background-size:130% 60rem;
+    background-image:  radial-gradient(circle, rgba(101,254,254,0.4) 100%, rgba(248,249,250,1) 100%),url("../../../../public/Images/971.jpg");
+  }
+  .landingSearchBar
+  {
+    width: 35rem;
+    
+  }
+
+  
+  .userWelcome
+  {
+    margin-top:5rem;
+  }
+}

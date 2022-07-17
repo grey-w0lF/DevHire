@@ -1,0 +1,16 @@
+.landingScreenWrapper {
+  min-height: 80vh;
+}
+
+.landingCarousel {
+  width: 50rem;
+  height: 50rem;
+}
+
+.carouselImg {
+  width: 50rem;
+  height: 50rem;
+}
+
+@media screen and (max-width: 576px) {
+}

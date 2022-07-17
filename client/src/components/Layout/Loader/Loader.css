@@ -1,0 +1,17 @@
+.Loader1
+{
+ animation: Loader1 10s infinite linear;
+ margin-left: 40vw;
+ margin-top: 20vh;
+  width:22rem;
+}
+
+
+@keyframes Loader1 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }

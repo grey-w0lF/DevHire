@@ -1,0 +1,44 @@
+.footerContainer1 {
+  background-color: #65fefe;
+}
+.scrollToph5 {
+  color: #193f52;
+  font-family: "Concert One", cursive;
+  font-size: 2.8rem;
+  letter-spacing: 0.1rem;
+  padding-right: 1rem;
+}
+.footerContainer2 {
+  background-color: #193f52;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds.png");
+}
+
+.footerSocialIcons {
+  color: #f8f9fa;
+  font-size: 4rem;
+  margin: 1rem 2rem 2rem 2rem;
+}
+
+.footerLinksh4 {
+  color: #f8f9fa;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+  padding-right: 1rem;
+  cursor: pointer;
+  margin-bottom: 2rem;
+}
+.footerLinksh4:hover {
+  color: #65fefe;
+}
+.footerSocialIcons:hover {
+  color: #65fefe;
+}
+
+.copyRightString {
+  color: #f8f9fa;
+  font-size: 1.5rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  word-spacing: 0.8rem;
+  margin-bottom: 2rem;
+}
